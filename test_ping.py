@@ -1,3 +1,6 @@
+import numpy as np
+
+
 import subprocess    
 import re
 p = subprocess.Popen(["ping.exe", 'baidu.com'], 
