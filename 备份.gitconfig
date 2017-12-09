@@ -1,0 +1,15 @@
+[user]
+	name = gzxiaoxiang
+	email = gzxiaoxiang@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[core]
+	autocrlf = false
+[http]
+	proxy = 127.0.0.1:8087
+	sslVerify = false
+[https]
+	proxy = 127.0.0.1:8087
+	sslVerify = false
