@@ -8,6 +8,8 @@ import re
 import sys
 import os
 time.time()
+print "hello"
+print "test"
 def get_connect_time(ipaddress, port):   
     try:
         socket.setdefaulttimeout(1)
