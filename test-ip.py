@@ -9,7 +9,7 @@ import sys
 import os
 time.time()
 print "hello"
-print "test"
+print "test now new test"
 def get_connect_time(ipaddress, port):   
     try:
         socket.setdefaulttimeout(1)
