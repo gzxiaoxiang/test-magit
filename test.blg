@@ -1,5 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: test.aux
 The style file: plain.bst
 Database file #1: name.bib
-Warning--I didn't find a database entry for "Murray"
-(There was 1 warning)
+Warning--empty journal in test-new
+Warning--empty journal in Crowston:2017:GSH:3022198.3026329
+Warning--empty journal in kraus
+(There were 3 warnings)

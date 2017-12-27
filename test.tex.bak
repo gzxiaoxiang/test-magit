@@ -1,6 +1,6 @@
 
 \documentclass{ctexart}
-\usepackage{graphicx}
+
 \begin{document}
 \label{chap:testlk}
 中文测试,通过该文档检测中文在latex中的输入是否有问题
@@ -11,42 +11,19 @@
 f(x)=ax^2+bx+c
 \end{equation}
 
-\Sigma{}
-\sigma{}
-$\sigma$
-$\Sigma$
-$\epsilon$
-$\lambda$
-
-
-\[\sigma^{2}=\frac{1}{N}\sum_{n=1}^{N}(x_n-y_n)^{2}]
-
-
 \pi
-$\cos$
-\begin{equation}
-\label{eq:3}
-  
-\end{equation}
-
-
-
-$a\tilde{\cos\Gamma\}$
 
 f(y)=ay^3+by^2+c
 
 the quick brown dog  over the lazy fox 0 1 2 3.1459 4 5 6 7 8 9 times
 
 ref for the test
-\left\gamma{}
-
 \begin{math}
   test math ax^5
 \end{math}
 
 \section{section1}
-\label{sec:文字输入测试}
-
+\label{sec:section1}
 
 
 \begin{table}
@@ -59,10 +36,7 @@ ref for the test
 \end{table}
 
 \section{section2}
-\label{sec:公式测试}
-
-fig:
-
+\label{sec:section2}
 
 
 \ldots this is an formular:
@@ -73,36 +47,15 @@ fig:
 
 
 \section{section3}
-\label{图形测试}
-\begin{figure}[htbp]
-\centerline{\includegraphics[width=1.77in,height=1.75in]{test2.jpg}}
-\caption[]{\label{fig:test2} }
-\end{figure}
+\label{sec:section3}
+
 
 \begin{figure}
   \centering
-
+  
   \caption{test fonts}
   \label{fig:test}
 \end{figure}
-
-
-
-
-
-\begin{tabular}{|l|c|r|}
- \hline
-操作系统& 发行版& 编辑器 &备注\\
- \hline
-Windows & MikTeX & TexMakerX &测试1 \\
- \hline
-Unix/Linux & teTeX & Kile  &测试2 \\
- \hline
-Mac OS & MacTeX & TeXShop  &测试3\\
- \hline
-通用& TeX Live & TeXworks  &测试4\\
- \hline
-\end{tabular}
 
 
 \[a^2 + b^2 = c^2 \]
@@ -111,8 +64,8 @@ Mac OS & MacTeX & TeXShop  &测试3\\
 \cos(2\theta) = \cos^{2}(\theta) - \sin^{2}(\theta)$ \\
 
 \section{section4}
-\label{参考文献测试}
-\la
+\label{sec:section4}
+
 
 testcite\cite{Murray2009hydrogen}the new document
 
@@ -122,10 +75,11 @@ testcite\cite{Murray2009hydrogen}the new document
 5\cite{landau}
 6\cite{Balkan:2017:UFA:3136518.3122787}
 7\cite{Schedl:2016:IIM:3004291.2991468}
-8\cite{Han:2016:TUB:2992189.2992202}\cite{Crowston:2017:GSH:3022198.3026329}
-
+8\cite
 \begin{equation}
+\label{eq:3}
 
+\end{equation}
 
 \bibliographystyle{plain}
 \bibliography{name}

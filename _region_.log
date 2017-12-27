@@ -1,7 +1,8 @@
-This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2016.9.21)  27 DEC 2017 18:34
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2016.9.21)  25 DEC 2017 16:41
 entering extended mode
-**\input test.tex
-(d:\Test\test-magit\test.tex (D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\ctexart.cls
+**\input _region_.tex
+(d:\Test\test-magit\_region_.tex  !name(test.tex)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\ctexart.cls
 Document Class: ctexart 2010/10/17 v1.02 ctexart document class
 (D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\opt\ctex-common-opts.def)
 (D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\opt\ctex-caption-opts.def
@@ -406,28 +407,7 @@ Requested font "[lmroman10-regular]:mapping=tex-text" at 10.54pt
 (D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\cfg\ctexcap.cfg
 (D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\cfg\ctexcap-utf8.cfg))
 (D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\cfg\ctex.cfg)
-(D:\Emacs-23\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-(D:\Emacs-23\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(D:\Emacs-23\CTEX\MiKTeX\tex\latex\graphics\trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(D:\Emacs-23\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: xetex.def on input line 91.
-
-(D:\Emacs-23\CTEX\MiKTeX\tex\xelatex\xetex-def\xetex.def
-File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
-
-))
-\Gin@req@height=\dimen114
-\Gin@req@width=\dimen115
-)
-(d:\Test\test-magit\test.aux)
+No file _region_.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -503,6 +483,179 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 4.
+ !name(test.tex) !offset(13) 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 frac{1}{N}\sum
+                  _{n=1}^{N}(x_n-y_n)^{2}]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Requested font "[lmroman7-regular]:mapping=tex-text" at 7.0pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman7-regular.otf
+Requested font "[lmroman5-regular]:mapping=tex-text" at 5.0pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman5-regular.otf
+Requested font "cmmi10" at 10.54pt
+ -> cmmi10
+Requested font "cmsy10" at 10.54pt
+ -> cmsy10
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.54> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+Requested font "cmr10" at 10.54pt
+ -> cmr10
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 \pi
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 $\cos
+          $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.14 
+     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! You can't use `\eqno' in vertical mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.15 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.15 \end{equation}
+                   
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 $a\tilde{\cos\Gamma\}$
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 f(y)=ay^
+             3+by^2+c
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 \left
+          \gamma{}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \gamma 
+l.25 \left\gamma
+                {}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.26 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Requested font "[lmroman17-regular]:mapping=tex-text" at 15.06pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman17-regular.otf
+Requested font "[lmroman12-bold]:mapping=tex-text" at 15.06pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
+! Missing # inserted in alignment preamble.
+<to be read again> 
+                   \cr 
+l.38   \begin{tabular}{}
+                        
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
 Requested font "SimSun" at 10.54pt
  -> D:/Emacs-23/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "SimSun/ICU" at 10.54pt
@@ -536,387 +689,48 @@ Requested font "SimSun/ICU:mapping=tex-text;;" at 10.54pt
  -> D:/Emacs-23/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Unknown feature `' in font `SimSun'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.7 \alpha
-           , \beta  and ,\gamma
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Requested font "[lmroman7-regular]:mapping=tex-text" at 7.0pt
- -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman7-regular.otf
-Requested font "[lmroman5-regular]:mapping=tex-text" at 5.0pt
- -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman5-regular.otf
-Requested font "cmmi10" at 10.54pt
- -> cmmi10
-Requested font "cmsy10" at 10.54pt
- -> cmsy10
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.54> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
-Requested font "cmr10" at 10.54pt
- -> cmr10
-! Missing $ inserted.
-<inserted text> 
-                $
-l.8 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.14 \Sigma
-           {}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 $\sigma
-            $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.23 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.25 \pi
-        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.26 $\cos
-          $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.29 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.29 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! You can't use `\eqno' in vertical mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.30 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.30 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.30 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.34 $a\tilde{\cos\Gamma\}$
-                           
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.36 f(y)=ay^
-             3+by^2+c
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.37 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.41 \left
-          \gamma{}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing delimiter (. inserted).
-<to be read again> 
-                   \gamma 
-l.41 \left\gamma
-                {}
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.42 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.42 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Requested font "[lmroman17-regular]:mapping=tex-text" at 15.06pt
- -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman17-regular.otf
-Requested font "[lmroman12-bold]:mapping=tex-text" at 15.06pt
- -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
-! Missing # inserted in alignment preamble.
-<to be read again> 
-                   \cr 
-l.54   \begin{tabular}{}
-                        
-There should be exactly one # between &'s, when an
-\halign or \valign is being set up. In this case you had
-none, so I've put one in; maybe that will work.
-
-File: test2.jpg Graphic file (type QTm)
-<use  "test2.jpg" >
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.95 操作系统& 发行版& 编辑器 &
-                                         备注\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.97 Windows & MikTeX & TexMakerX &
-                                   测试1 \\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.99 Unix/Linux & teTeX & Kile  &
-                                 测试2 \\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.101 Mac OS & MacTeX & TeXShop  &
-                                  测试3\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.103 通用& TeX Live & TeXworks  &
-                                    测试4\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.54pt
- -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmromanslant10-regular.otf
-[1
-
-]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.109 \sin
-          (\theta)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.111 \cos
-          (2\theta) = \cos^{2}(\theta) - \sin^{2}(\theta)$ \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-! Undefined control sequence.
-l.115 \la
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.126 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.126 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[2]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.128 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.128 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-(d:\Test\test-magit\test.bbl
-Requested font "SimSun" at 15.06pt
- -> D:/Emacs-23/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "SimSun/ICU" at 15.06pt
- -> D:/Emacs-23/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
- fontspec info: Font SimSun does not contain any OpenType `Script' information.
-
-
-Requested font "SimHei/ICU:mapping=tex-text;;" at 15.06pt
- -> C:/Windows/Fonts/simhei.ttf
-Unknown feature `' in font `SimHei'.
-Requested font "[lmroman10-italic]:mapping=tex-text" at 10.54pt
- -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-italic.otf
-)
-
-! LaTeX Error: \begin{equation} on input line 127 ended by \end{document}.
+! LaTeX Error: Environment xxx undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{document}
-                    
+l.48 \begin{xxx}
+                 auto complete \end{xxx}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
- fontspec info: Font SimSun does not contain any OpenType `Script' information.
 
+! LaTeX Error: \begin{document} ended by \end{xxx}.
 
-LaTeX Font Info:    Font shape `EU1/SimSun(0)/m/sl' in size <10.54> not availab
-le
-(Font)              Font shape `EU1/SimSun(0)/m/it' tried instead on input line
- 135.
-Requested font "[SIMKAI.TTF]/ICU:mapping=tex-text;;" at 10.54pt
-Unknown feature `' in font `[SIMKAI.TTF]/ICU:mapping=tex-text;;'.
- -> C:/Windows/Fonts/SIMKAI.TTF
-LaTeX Font Info:    Font shape `EU1/SimSun(0)/m/sl' in size <10.54> not availab
-le
-(Font)              Font shape `EU1/SimSun(0)/m/it' tried instead on input line
- 135.
-[3] (d:\Test\test-magit\test.aux) )
-(\end occurred inside a group at level 2)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \begin{xxx} auto complete \end{xxx}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-### semi simple group (level 2) entered at line 127 (\begingroup)
-### semi simple group (level 1) entered at line 119 (\begingroup)
-### bottom level 
+ !name(test.tex) !offset(58) 
+Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.54pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmromanslant10-regular.otf
+ [1
+
+] (d:\Test\test-magit\_region_.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11430 strings out of 430486
- 198726 string characters out of 3191469
- 269675 words of memory out of 3000000
- 14404 multiletter control sequences out of 15000+200000
- 4692 words of font info for 34 fonts, out of 3000000 for 9000
+ 11081 strings out of 430486
+ 194386 string characters out of 3191469
+ 261329 words of memory out of 3000000
+ 14083 multiletter control sequences out of 15000+200000
+ 4652 words of font info for 29 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,7n,73p,600b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,7n,80p,583b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on test.pdf (3 pages).
+Output written on _region_.pdf (1 page).

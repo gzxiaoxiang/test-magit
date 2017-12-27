@@ -1,0 +1,10 @@
+# name: ctexarttemplate
+# key: ctexarttemplate
+# --
+\documentclass[cs4size,adobefonts]{ctexart}
+\begin{document}
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
