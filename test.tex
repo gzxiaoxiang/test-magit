@@ -1,6 +1,8 @@
 
 \documentclass{ctexart}
 \usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
 \begin{document}
 \label{chap:testlk}
 中文测试,通过该文档检测中文在latex中的输入是否有问题
@@ -11,7 +13,7 @@
 f(x)=ax^2+bx+c
 \end{equation}
 
-\Sigma{}
+1\Sigma{}
 \sigma{}
 $\sigma$
 $\Sigma$
@@ -49,14 +51,7 @@ ref for the test
 
 
 
-\begin{table}
-  \centering
-  \begin{tabular}{}
-    table
-  \end{tabular}
-  \caption{test table}
-  \label{tab:table1}
-\end{table}
+
 
 \section{section2}
 \label{sec:公式测试}
@@ -81,7 +76,6 @@ fig:
 
 \begin{figure}
   \centering
-
   \caption{test fonts}
   \label{fig:test}
 \end{figure}
@@ -90,7 +84,7 @@ fig:
 
 
 
-\begin{tabular}{|l|c|r|}
+\begin{tabular}{|l|c|r|c|}
  \hline
 操作系统& 发行版& 编辑器 &备注\\
  \hline
@@ -103,6 +97,41 @@ Mac OS & MacTeX & TeXShop  &测试3\\
 通用& TeX Live & TeXworks  &测试4\\
  \hline
 \end{tabular}
+
+
+LaTeX table example\\
+\verb= http:\\www.chinatex.org=\\
+\begin{table}[!hbp]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\hline
+lable 1-1 & label 1-2 & label 1-3 & label 1 -4 & label 1-5 \\
+\hline
+label 2-1 & label 2-2 & label 3-3 & label 4-4 & label 5-5 \\
+\hline
+\multirow{2}{*}{Multi-Row} & \multicolumn{2}{|c|}{Multi-Column} & \multicolumn{2}{|c|}{\multirow{2}{*}{Multi-Row and Col}} \\
+\cline{2-3}
+& column-1 & column-2 & \multicolumn{2}{|c|}{}\\
+\hline
+\end{tabular}
+\caption{My first table}
+\end{table}
+
+
+
+
+
+\begin{table}
+\begin{tabular}{c|c|c|}
+\toprule
+姓名& 学号& 性别\\
+\midrule
+Ch'en Meng& 001& Male\\
+Sarah Brightman& 002& Female\\
+\bottomrule
+\end{tabular}
+\end{table}
+
 
 
 \[a^2 + b^2 = c^2 \]
