@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-//test for the first time in github
+//test for the first time in github  in 2018-1-7
  int func(int n)
  {
     int sum=0,i;
