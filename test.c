@@ -12,11 +12,11 @@
      }
 
 
- /* main() */
+ main()
  {
      int i;
      long result = 0;
-     for(i=1; i<=100; i++)
+     for(i=1; i<=103; i++)
         {
              result += i;
              }
