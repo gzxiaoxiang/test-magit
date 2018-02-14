@@ -284,6 +284,16 @@ http://airekans.github.io/emacs/2012/05/18/find-tag-in-emacs
 C-h  i m  elisp  RET //查看elisp教程
 
 ** emacs和正则表达式配合使用 
+   M-x re-builer  手动生成正则表达式
+   M-x regexp-builder 同上,手动生成正则表达式
+   M-x regexp-opt  根据目标内容生成对应的正则表达式
+   可以利用emacs的函数exgrep-opt自动生成一个高效的正则匹配表达式：
+   (regexp-opt '("foobar" "foobaz" "foo"))按键"C-x C-e"在状态栏生成正则表达式
+   (regexp-opt '("foobar" "foobaz" "foo"))按键"C-u C-x C-e"在当前光标处生成正则表达式
+   (regexp-opt '("foobar" "foobaz" "foo"))"\\(?:foo\\(?:ba[rz]\\)?\\)"
+   (regexp-opt '("foobar" "foobaz" "foo"))
+
+   "\\(?:foo\\(?:ba[rz]\\)?\\)"
 
 ** Emacs Lisp编程入门书籍
    这本书是中文版，英文版本可以直接通过C-h i之后查询Emacs Lisp Intro直
