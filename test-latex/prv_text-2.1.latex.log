@@ -1,0 +1,32 @@
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2016.9.21)  12 DEC 2017 11:08
+entering extended mode
+**&xelatex prv_text-2.1.latex.ini \nonstopmode\nofiles\PassOptionsToPackage{act
+ive,tightpage,auctex}{preview}\AtBeginDocument{\ifx\ifPreview\undefined\Require
+Package[displaymath,floats,graphics,textmath,sections,footnotes]{preview}[2004/
+11/05]\fi} \input text-2.1.latex.tex
+(d:\Test\test-magit\prv_text-2.1.latex.ini
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for loaded.
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\carlisle\mylatex.ltx)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\tools\.tex File ignored))
+No auxiliary output files.
+
+! I can't find file `text-2.1.latex.tex'.
+<*> ...}[2004/11/05]\fi} \input text-2.1.latex.tex
+                                                  
+Please type another input file name
+! Emergency stop.
+<*> ...}[2004/11/05]\fi} \input text-2.1.latex.tex
+                                                  
+*** (job aborted, file error in nonstop mode)
+
+ 
+Here is how much of TeX's memory you used:
+ 22 strings out of 430486
+ 384 string characters out of 3191469
+ 44911 words of memory out of 3000000
+ 3242 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 5i,0n,5p,506b,12s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

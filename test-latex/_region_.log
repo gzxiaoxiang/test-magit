@@ -1,0 +1,736 @@
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2016.9.21)  25 DEC 2017 16:41
+entering extended mode
+**\input _region_.tex
+(d:\Test\test-magit\_region_.tex  !name(test.tex)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\ctexart.cls
+Document Class: ctexart 2010/10/17 v1.02 ctexart document class
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\opt\ctex-common-opts.def)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\opt\ctex-caption-opts.def
+\c@CTEX@sectiondepth=\count80
+)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\opt\ctex-class-opts.def)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\cfg\ctexopts.cfg)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\def\ctex-loadclass.def
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+))
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\def\ctex-common.def
+(D:\Emacs-23\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\base\fix-cm.sty
+Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+))
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\engine\ctex-xecjk-engine.def
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\savesym\savesym.sty
+
+LaTeX Warning: You have requested package `savesym',
+               but the package provides `savesymbol'.
+
+Package: savesymbol 2003/06/01 v1.1 Saves and restores symbols
+) (D:\Emacs-23\CTEX\CTeX\tex\xelatex\xecjk\xeCJK.sty
+Package: xeCJK 2010/11/20 2.3.17 package for typesetting CJK scripts with XeLaT
+eX
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\fontspec\fontspec.sty
+Package: fontspec 2010/11/17 v2.1e Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\expl3.sty
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3names.sty
+Package: l3names 2010/10/03 v2064 L3 Experimental Naming Scheme for TeX Primiti
+ves
+)
+Package: expl3 2010/11/13 v2083 L3 Experimental code bundle wrapper
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\misc\etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count89
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3basics.sty
+Package: l3basics 2010/10/03 v2063 L3 Experimental basic definitions
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3expan.sty
+Package: l3expan 2010/09/20 v2037 L3 Experimental Argument Expansion module
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3tl.sty
+Package: l3tl 2010/11/17 v2084 L3 Experimental Token Lists
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3int.sty
+Package: l3int 2010/10/17 v2077 L3 Experimental Integer module
+\l_tmpa_int=\count90
+\l_tmpb_int=\count91
+\l_tmpc_int=\count92
+\g_tmpa_int=\count93
+\g_tmpb_int=\count94
+\c_max_int=\count95
+\g_tl_inline_level_int=\count96
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3quark.sty
+Package: l3quark 2010/09/20 v2036 L3 Experimental Quark Commands
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3seq.sty
+Package: l3seq 2010/03/29 v1879 L3 Experimental sequences and stacks
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3toks.sty
+Package: l3toks 2010/09/20 v2037 L3 Experimental Token Registers
+\l_tmpb_toks=\toks15
+\l_tmpc_toks=\toks16
+\g_tmpa_toks=\toks17
+\g_tmpb_toks=\toks18
+\g_tmpc_toks=\toks19
+\c_empty_toks=\toks20
+\l_tl_replace_toks=\toks21
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3prg.sty
+Package: l3prg 2010/10/03 v2063 L3 Experimental control structures
+\g_prg_inline_level_int=\count97
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3clist.sty
+Package: l3clist 2010/10/09 v2071 L3 Experimental comma separated lists
+\g_clist_map_inline_int=\count98
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3token.sty
+Package: l3token 2010/10/03 v2063 L3 Experimental token investigation and manip
+ulation
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3prop.sty
+Package: l3prop 2010/11/23 v2087 L3 Experimental Property Lists
+\g_prop_inline_level_int=\count99
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3msg.sty
+Package: l3msg 2010/10/02 v2052 L3 Experimental LaTeX Messages module
+\l_msg_redirect_classes_prop=\toks22
+\l_msg_redirect_names_prop=\toks23
+\l_msg_redirect_fatal_prop=\toks24
+\l_msg_redirect_error_prop=\toks25
+\l_msg_redirect_warning_prop=\toks26
+\l_msg_redirect_info_prop=\toks27
+\l_msg_redirect_log_prop=\toks28
+\l_msg_redirect_trace_prop=\toks29
+\l_msg_redirect_none_prop=\toks30
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3io.sty
+Package: l3io 2010/10/03 v2063 L3 Experimental i/o module
+\g_iow_streams_prop=\toks31
+\g_ior_streams_prop=\toks32
+\l_iow_stream_int=\count100
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3skip.sty
+Package: l3skip 2010/11/23 v2088 L3 Experimental skip registers
+\l_tmpa_skip=\skip43
+\l_tmpb_skip=\skip44
+\l_tmpc_skip=\skip45
+\g_tmpa_skip=\skip46
+\g_tmpb_skip=\skip47
+\l_tmpa_dim=\dimen103
+\l_tmpb_dim=\dimen104
+\l_tmpc_dim=\dimen105
+\l_tmpd_dim=\dimen106
+\g_tmpa_dim=\dimen107
+\g_tmpb_dim=\dimen108
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3box.sty
+Package: l3box 2010/09/26 v2048 L3 Experimental Box module
+\l_tmpb_box=\box26
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3keyval.sty
+Package: l3keyval 2010/04/11 v1890 L3 Experimental keyval processing
+\l_KV_level_int=\count101
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3keys.sty
+Package: l3keys 2010/11/11 v2082 L3 Experimental key-value support
+\l_keys_choice_int=\count102
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3precom.sty
+Package: l3precom 2010/02/09 v1793 L3 Experimental precompilation module
+\g_gen_sym_int=\count103
+\g_ggen_sym_int=\count104
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3xref.sty
+Package: l3xref 2010/02/09 v1786 L3 Experimental cross referencing
+\g_xref_all_curr_immediate_fields_prop=\toks33
+\g_xref_all_curr_deferred_fields_prop=\toks34
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3file.sty
+Package: l3file 2010/03/21 v1853 L3 Experimental file loading
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3fp.sty
+Package: l3fp 2010/11/25 v2092 L3 Experimental floating-point operations
+\c_forty_four=\count105
+\c_one_hundred=\count106
+\c_one_thousand=\count107
+\c_one_million=\count108
+\c_one_hundred_million=\count109
+\c_five_hundred_million=\count110
+\c_one_thousand_million=\count111
+\c_fp_pi_by_four_decimal_int=\count112
+\c_fp_pi_by_four_extended_int=\count113
+\c_fp_pi_decimal_int=\count114
+\c_fp_pi_extended_int=\count115
+\c_fp_two_pi_decimal_int=\count116
+\c_fp_two_pi_extended_int=\count117
+\l_fp_count_int=\count118
+\l_fp_div_offset_int=\count119
+\l_fp_input_a_sign_int=\count120
+\l_fp_input_a_integer_int=\count121
+\l_fp_input_a_decimal_int=\count122
+\l_fp_input_a_exponent_int=\count123
+\l_fp_input_b_sign_int=\count124
+\l_fp_input_b_integer_int=\count125
+\l_fp_input_b_decimal_int=\count126
+\l_fp_input_b_exponent_int=\count127
+\l_fp_input_a_extended_int=\count128
+\l_fp_input_b_extended_int=\count129
+\l_fp_mul_a_i_int=\count130
+\l_fp_mul_a_ii_int=\count131
+\l_fp_mul_a_iii_int=\count132
+\l_fp_mul_a_iv_int=\count133
+\l_fp_mul_a_v_int=\count134
+\l_fp_mul_a_vi_int=\count135
+\l_fp_mul_b_i_int=\count136
+\l_fp_mul_b_ii_int=\count137
+\l_fp_mul_b_iii_int=\count138
+\l_fp_mul_b_iv_int=\count139
+\l_fp_mul_b_v_int=\count140
+\l_fp_mul_b_vi_int=\count141
+\l_fp_mul_output_int=\count142
+\l_fp_output_sign_int=\count143
+\l_fp_output_integer_int=\count144
+\l_fp_output_decimal_int=\count145
+\l_fp_output_exponent_int=\count146
+\l_fp_output_extended_int=\count147
+\l_fp_round_position_int=\count148
+\l_fp_round_target_int=\count149
+\l_fp_split_sign_int=\count150
+\l_fp_tmp_int=\count151
+\l_fp_trig_octant_int=\count152
+\l_fp_trig_sign_int=\count153
+\l_fp_trig_decimal_int=\count154
+\l_fp_trig_extended_int=\count155
+\l_fp_tmp_dim=\dimen109
+\l_fp_tmp_skip=\skip48
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\expl3\l3luatex.sty
+Package: l3luatex 2010/07/18 v1985 L3 Experimental LuaTeX functions
+\g_cctab_allocate_int=\count156
+\g_cctab_stack_int=\count157
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count158
+\calc@Bcount=\count159
+\calc@Adimen=\dimen110
+\calc@Bdimen=\dimen111
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count160
+\calc@Cskip=\skip51
+))
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\xpackages\xbase\xparse.sty
+Package: xparse 2010/10/13 v2073 Generic document command parser
+\c_xparse_shorthands_prop=\toks35
+\l_xparse_m_args_int=\count161
+\l_xparse_mandatory_args_int=\count162
+\l_xparse_processor_int=\count163
+\l_xparse_total_args_int=\count164
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\generic\binhex\binhex.tex)
+\l_fontspec_script_int=\count165
+\l_fontspec_language_int=\count166
+\l_fontspec_strnum_int=\count167
+Variant \tl_gset:cV already defined; not changing it on line 79
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+\XKV@depth=\count168
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\fontspec\fontspec-patches.sty
+Package: fontspec-patches 2010/11/17 v2.1e Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\base\fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 29.
+LaTeX Info: Redefining \- on input line 32.
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\euenc\eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\euenc\eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Requested font "[lmroman10-regular]:mapping=tex-text" at 10.0pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-regular.otf
+)
+(D:\Emacs-23\CTEX\MiKTeX\tex\xelatex\xunicode\xunicode.sty
+File: xunicode.sty 2010/11/06 v0.96 provides access to latin accents and many o
+ther characters in Unicode lower plane
+)
+ LaTeX info: Defining document command \fontspec
+(LaTeX)  with arg. spec. 'O{}m' on line 322.
+
+ LaTeX info: Defining document command \setmainfont
+(LaTeX)  with arg. spec. 'O{}m' on line 326.
+
+ LaTeX info: Defining document command \setsansfont
+(LaTeX)  with arg. spec. 'O{}m' on line 330.
+
+ LaTeX info: Defining document command \setmonofont
+(LaTeX)  with arg. spec. 'O{}m' on line 334.
+
+ LaTeX info: Defining document command \setmathrm
+(LaTeX)  with arg. spec. 'O{}m' on line 338.
+
+ LaTeX info: Defining document command \setboldmathrm
+(LaTeX)  with arg. spec. 'O{}m' on line 341.
+
+ LaTeX info: Defining document command \setmathsf
+(LaTeX)  with arg. spec. 'O{}m' on line 344.
+
+ LaTeX info: Defining document command \setmathtt
+(LaTeX)  with arg. spec. 'O{}m' on line 347.
+
+ LaTeX info: Defining document command \newfontfamily
+(LaTeX)  with arg. spec. 'mO{}m' on line 364.
+
+ LaTeX info: Defining document command \newfontface
+(LaTeX)  with arg. spec. 'mO{}m' on line 367.
+
+ LaTeX info: Defining document command \defaultfontfeatures
+(LaTeX)  with arg. spec. 'm' on line 370.
+
+ LaTeX info: Defining document command \addfontfeatures
+(LaTeX)  with arg. spec. 'm' on line 387.
+
+ LaTeX info: Defining document command \newfontfeature
+(LaTeX)  with arg. spec. 'mm' on line 394.
+
+ LaTeX info: Defining document command \newAATfeature
+(LaTeX)  with arg. spec. 'mmmm' on line 403.
+
+ LaTeX info: Defining document command \newICUfeature
+(LaTeX)  with arg. spec. 'mmm' on line 412.
+
+ LaTeX info: Defining document command \aliasfontfeature
+(LaTeX)  with arg. spec. 'mm' on line 414.
+
+ LaTeX info: Defining document command \aliasfontfeatureoption
+(LaTeX)  with arg. spec. 'mmm' on line 417.
+
+ LaTeX info: Defining document command \newfontscript
+(LaTeX)  with arg. spec. 'mm' on line 422.
+
+ LaTeX info: Defining document command \newfontlanguage
+(LaTeX)  with arg. spec. 'mm' on line 444.
+
+ LaTeX info: Defining document command \DeclareFontsExtensions
+(LaTeX)  with arg. spec. 'm' on line 461.
+
+\c@fontspec_tmp_int=\count169
+LaTeX Info: Redefining \itshape on input line 2071.
+LaTeX Info: Redefining \slshape on input line 2075.
+LaTeX Info: Redefining \scshape on input line 2079.
+LaTeX Info: Redefining \upshape on input line 2083.
+
+(D:\Emacs-23\CTEX\MiKTeX\tex\latex\fontspec\fontspec.cfg))
+\xeCJK@cnta=\count170
+\xeCJK@cntb=\count171
+\xeCJK@cntc=\count172
+\xeCJK@cntd=\count173
+\xeCJK@cnte=\count174
+\xeCJK@dima=\dimen112
+LaTeX Info: Redefining \normalfont on input line 807.
+LaTeX Info: Redefining \rmfamily on input line 816.
+LaTeX Info: Redefining \sffamily on input line 820.
+LaTeX Info: Redefining \ttfamily on input line 824.
+\xeCJK@featureadded=\count175
+)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\engine\ctex-cjk-common.def
+\ccwd=\dimen113
+)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\fontset\ctex-xecjk-winfonts.def))
+\CTEX@q=\count176
+\CTEX@r=\count177
+)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\def\ctex-caption.def)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\def\ctex-class.def
+Requested font "[lmroman10-regular]:mapping=tex-text" at 10.54pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-regular.otf
+)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\def\ctex-article.def))
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\def\ctex-utf8.def)
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\cfg\ctexcap.cfg
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\cfg\ctexcap-utf8.cfg))
+(D:\Emacs-23\CTEX\CTeX\tex\latex\ctex\cfg\ctex.cfg)
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+ fontspec info: Adjusting the maths setup (use [no-math] to avoid this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 4.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 4.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 4.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 4.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 4.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 4.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 4.
+LaTeX Font Info:    Redeclaring math accent \check on input line 4.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 4.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 4.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 4.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 4.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 4.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 4.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 4.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 4.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 4.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 4.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 4.
+ !name(test.tex) !offset(13) 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 frac{1}{N}\sum
+                  _{n=1}^{N}(x_n-y_n)^{2}]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Requested font "[lmroman7-regular]:mapping=tex-text" at 7.0pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman7-regular.otf
+Requested font "[lmroman5-regular]:mapping=tex-text" at 5.0pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman5-regular.otf
+Requested font "cmmi10" at 10.54pt
+ -> cmmi10
+Requested font "cmsy10" at 10.54pt
+ -> cmsy10
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.54> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+Requested font "cmr10" at 10.54pt
+ -> cmr10
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 \pi
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 $\cos
+          $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.14 
+     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! You can't use `\eqno' in vertical mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.15 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.15 \end{equation}
+                   
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 $a\tilde{\cos\Gamma\}$
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 f(y)=ay^
+             3+by^2+c
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 \left
+          \gamma{}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \gamma 
+l.25 \left\gamma
+                {}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.26 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Requested font "[lmroman17-regular]:mapping=tex-text" at 15.06pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman17-regular.otf
+Requested font "[lmroman12-bold]:mapping=tex-text" at 15.06pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
+! Missing # inserted in alignment preamble.
+<to be read again> 
+                   \cr 
+l.38   \begin{tabular}{}
+                        
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+Requested font "SimSun" at 10.54pt
+ -> D:/Emacs-23/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun/ICU" at 10.54pt
+ -> D:/Emacs-23/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+ fontspec info: Font SimSun does not contain any OpenType `Script' information.
+
+
+\g_fontspec_family_SimSun_int=\count178
+ fontspec info: Defining font family 'SimSun(0)' for font 'SimSun' with options
+ [Ligatures=TeX,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+
+\g_fontspec_SimSun(0)_prop=\toks38
+ fontspec info: Defining shape 'normal' with NFSS spec.:
+(fontspec)  <->"SimSun/ICU:mapping=tex-text;;"
+
+Requested font "SimHei/ICU" at 10.54pt
+ -> C:/Windows/Fonts/simhei.ttf
+ fontspec info: Defining shape 'bold' with NFSS spec.:
+(fontspec)  <->"SimHei/ICU:mapping=tex-text;;"
+
+Requested font "[SIMKAI.TTF]/ICU" at 10.54pt
+ -> C:/Windows/Fonts/SIMKAI.TTF
+ fontspec info: Defining shape 'italic' with NFSS spec.:
+(fontspec)  <->"[SIMKAI.TTF]/ICU:mapping=tex-text;;"
+
+Requested font "SimHei/I/ICU" at 10.54pt
+ -> C:/Windows/Fonts/simhei.ttf
+ fontspec info: Could not resolve font SimHei/I (it probably doesn't exist).
+
+Requested font "SimSun/ICU:mapping=tex-text;;" at 10.54pt
+ -> D:/Emacs-23/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Unknown feature `' in font `SimSun'.
+
+! LaTeX Error: Environment xxx undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \begin{xxx}
+                 auto complete \end{xxx}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{xxx}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \begin{xxx} auto complete \end{xxx}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ !name(test.tex) !offset(58) 
+Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.54pt
+ -> D:/Emacs-23/CTEX/MiKTeX/fonts/opentype/public/lm/lmromanslant10-regular.otf
+ [1
+
+] (d:\Test\test-magit\_region_.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11081 strings out of 430486
+ 194386 string characters out of 3191469
+ 261329 words of memory out of 3000000
+ 14083 multiletter control sequences out of 15000+200000
+ 4652 words of font info for 29 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 56i,7n,80p,583b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on _region_.pdf (1 page).
