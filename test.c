@@ -23,4 +23,5 @@
 
          printf("result[1-100] = %d /n", result );
      printf("result[1-250] = %d /n", func(250) );
+     
      }

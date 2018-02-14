@@ -14,3 +14,7 @@ out = p.stdout.read()
 regex = re.compile("Minimum = (\d+)ms, Maximum = (\d+)ms, Average = (\d+)ms", re.IGNORECASE)
 print regex.findall(out)
 print (out)
+
+def test(x):
+    print(x)
+test(3)
