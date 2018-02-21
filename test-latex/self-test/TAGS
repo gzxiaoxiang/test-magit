@@ -1,0 +1,24 @@
+
+test.tex,1092
+\label{chap:testlk}chap:testlk7,108
+\label{eq:1}eq:112,286
+\label{eq:3}eq:331,468
+\section{section1}section172,1470
+\label{sec:文字输入测试}sec:文字输入测试73,1489
+\section{section2}section279,1525
+\label{sec:公式测试}sec:公式测试80,1544
+  \label{eq:2}eq:288,1623
+\section{section3}section393,1685
+\label{图形测试}图形测试94,1704
+\caption[]{测试图片\label{fig:test2}fig:test297,1810
+\caption[test2]{测试图片test\label{fig:testjpg}fig:testjpg102,1948
+\section{section4}section4161,2999
+\label{参考文献测试}参考文献测试162,3018
+testcite\cite{Murray2009hydrogen}Murray2009hydrogen166,3054
+3 \cite{kraus}kraus169,3122
+4\cite{test-new}test-new170,3137
+5\cite{landau}landau171,3154
+6\cite{Balkan:2017:UFA:3136518.3122787}Balkan:2017:UFA:3136518.3122787172,3169
+7\cite{Schedl:2016:IIM:3004291.2991468}Schedl:2016:IIM:3004291.2991468173,3209
+8\cite{Han:2016:TUB:2992189.2992202}Han:2016:TUB:2992189.2992202174,3249
+yinyong\cite{Larochelle:2012:LAC:2188385.2188407}Larochelle:2012:LAC:2188385.2188407176,3327

@@ -11,6 +11,8 @@ os.times()
 #print "hello world" : import ipdb; ipdb.set_trace()
 k_b=1.38e-23 
 
+def s(c):
+     return c + 1
 
 
 
@@ -21,3 +23,6 @@ if __name__ == "__main__":
      for i in xrange(9, 1, -1):
          if i == 6: import ipdb; ipdb.set_trace()
          print f(i, i - 2)
+
+
+
