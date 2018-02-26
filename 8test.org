@@ -1,4 +1,4 @@
- bibliography:~/Nutstore/bibliography/reference1.bib
+ bibliography:~/Nutstore/bibliography/reference.bib
 * Emacs Lisp语法学习
 
 ** Emacs中实现c和C++以及elist代码的自动补全和跳转
@@ -80,12 +80,17 @@ C-h  i m  elisp  RET //查看elisp教程
 
 
 
-
-
-
-
 #+BEGIN_SRC emacs-lisp
 (+ 2 3)
+(defun f (n) 
+  (cond ((= n 1) 1)
+        ((= n 2) 1)
+         (t (+ (f (- n 1)) (f (- n 2))))))
+(f 34)
+
+
+
+
 
 #+END_SRC 
 
@@ -221,20 +226,13 @@ smesf ijds  #101-22-33-23
 ** SICP的python实现结果
 *** 第一章python版本书中程序
 
-#+BEGIN_SRC python :results output
 from operator import add,sub
 import sys
 print sys.version
 print sys.prefix
 print "hello world!"
 
-
-#+END_SRC
-
-#+RESULTS:
-: 2.7.13 |Anaconda 4.3.1 (64-bit)| (default, Dec 19 2016, 13:29:36) [MSC v.1500 64 bit (AMD64)]
-: d:\Anaconda2
-: hello world!
+转到jupyter notebook中运行python的代码
 
 
 
@@ -446,55 +444,16 @@ print "hello world!"
 
 * Latex排版学习
 ** Org中插入参考文献doi信息 
-  a reference from cite:Murray2009Hydrogen
-   
-
-  rowe-1979\cite{rowe-1979-grain}
-  cite:rowe79_grain_bound_segreg_grain_growt
-  restref cite:backeberg18_neoar_supra_subduc_gold_mesoar_tonal_granod
  
-  test \cite{Ustinovskiy:2013:PWU:2541176.2505679}
-   10.1007/bf02811646
-  doi:10.1007/BF02811644
-
-  doi:10.1111/gcbb.12488
-
-
-  doi:10.1038/nature25456
-  doi:10.1016/j.precamres.2017.12.016
-
-  doi:10.1007/bf02811646
-cite:backeberg18_neoar_supra_subduc_gold_mesoar_tonal_granod
-  doi:10.1038/s41598-018-20716-3
-
-  cite:rowe79_grain_bound_segreg_grain_growt
-
-  ref document cite:Cao:2017:MEA:3134600.3134606
-  
-  Ei doi:10.1109/TNNLS.2015.2479223
-  ei reference cite:He:2017:NFM:3077136.3080777
-  cite:16406882
-  cite:cao17_data_scien
-
-cite:ye18_power_deep_learn_chann_estim
-  doi:10.1109/lwc.2017.2757490
-
-
-   cite:tu17_emacs
+  matlab deep learn cite:kim17_matlab_deep_learn
+ 
+  the secret deep cite:ye18_power_deep_learn_chann_estim 
  
 
+   doi:10.1109/lwc.2017.2757490
 
-  #+BEGIN_LaTeX
-
-   #+END_LaTeX
-
-#+BEGIN_QUOTE
-
-#+END_QUOTE
-
-#+BEGIN_EXAMPLE
-
-#+END_EXAMPLE
+cite:zhou10_block_rankin
+     
 
 #+BEGIN_SRC C
   #include <stdio.h>
@@ -523,4 +482,20 @@ cite:ye18_power_deep_learn_chann_estim
 
 #+RESULTS:
 | hello | c++ in emacs new!! |
+
+
+** 测试文档
+#+BEGIN_SRC latex   :exports silent
+    
+  test ref
+  $\alpha$
+    
+#+END_SRC
+
+
+
+
+
+ 
+
 

@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-02-25 周日 22:11 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline6">1. Emacs Lisp语法学习</a>
+<ul>
+<li><a href="#orgheadline1">1.1. Emacs中实现c和C++以及elist代码的自动补全和跳转</a></li>
+<li><a href="#orgheadline3">1.2. Emacs Lisp编程入门书籍</a>
+<ul>
+<li><a href="#orgheadline2">1.2.1. 切换缓冲区</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline4">1.3. emacs和正则表达式配合使用</a></li>
+<li><a href="#orgheadline5">1.4. Grep命令使用及正则表达式（默认搜索当前路径下的文件，而不查询目录）</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline12">2. sicp的课后习题实现</a>
+<ul>
+<li><a href="#orgheadline8">2.1. SICP的python实现结果</a>
+<ul>
+<li><a href="#orgheadline7">2.1.1. 第一章python版本书中程序</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline11">2.2. SICP的scheme实现结果</a>
+<ul>
+<li><a href="#orgheadline9">2.2.1. 第三章习题</a></li>
+<li><a href="#orgheadline10">2.2.2. 全加器的模拟</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline15">3. Latex排版学习</a>
+<ul>
+<li><a href="#orgheadline13">3.1. Org中插入参考文献doi信息</a></li>
+<li><a href="#orgheadline14">3.2. 测试文档</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+<h1 class='org-ref-bib-h1'>Bibliography</h1>
+<ul class='org-ref-bib'><li><a id="kim17_matlab_deep_learn">[kim17_matlab_deep_learn]</a> Phil Kim, MATLAB Deep Learning, Apress (2017).</li>
+<li><a id="ye18_power_deep_learn_chann_estim">[ye18_power_deep_learn_chann_estim]</a> Hao Ye, Geoffrey Ye Li & Biing-Hwang Juang, Power of Deep Learning for Channel Estimation and  Signal Detection in Ofdm Systems, <i>IEEE Wireless Communications Letters</i>, <b>7(1)</b>, 114-117 (2018). <a href="https://doi.org/10.1109/lwc.2017.2757490">link</a>. <a href="http://dx.doi.org/10.1109/lwc.2017.2757490">doi</a>.</li>
+<li><a id="zhou10_block_rankin">[zhou10_block_rankin]</a> Jingli Zhou, Ke Liu, Leihua Qin, Xuejun Nie & , Block-Ranking: Content Similarity Retrieval Based on  Data Partition in Network Storage Environment, <i>International Journal of Digital Content Technology
+                  and its Applications</i>, <b>4(3)</b>, 85-94 (2010). <a href="https://doi.org/10.4156/jdcta.vol4.issue3.8">link</a>. <a href="http://dx.doi.org/10.4156/jdcta.vol4.issue3.8">doi</a>.</li>
+</ul>
+</p>
+<div id="outline-container-orgheadline6" class="outline-2">
+<h2 id="orgheadline6"><span class="section-number-2">1</span> Emacs Lisp语法学习</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-orgheadline1" class="outline-3">
+<h3 id="orgheadline1"><span class="section-number-3">1.1</span> Emacs中实现c和C++以及elist代码的自动补全和跳转</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+有几种方式可以实现跳转，一个是利用emacs自带的etags，另一种是使用gtags，使用第一种方式时不用开启gtags模式，后者需要安装ggtags模式后，才能对C和C++进行跳转，但后者的功能更加强大一些。etags不能自动更新tags，需要通过etags+文件名来手动更新，但是gtags可以实现在保存文件的时候，自动更行gtags文件。
+参考网址：<a href="https://segmentfault.com/a/1190000000502565">https://segmentfault.com/a/1190000000502565</a>
+<a href="http://airekans.github.io/emacs/2012/05/18/find-tag-in-emacs">http://airekans.github.io/emacs/2012/05/18/find-tag-in-emacs</a>
+</p>
+
+<p>
+1.在Emacs中我们可以通过如下的方式得到变量和函数的帮助信息
+</p>
+
+<p>
+C-h -h 查看帮助信息
+</p>
+
+<p>
+C-h  b //查看键值绑定信息 (重要)
+</p>
+
+<p>
+查找命令的名称或键盘快捷键
+如果你知道一个命令的名字，你可以找到它的键盘快捷方式（如果有的话）。打电话describe-function。如果你知道一个键盘快捷方式，你可以找到它调用的命令。打电话describe-key。
+</p>
+
+<p>
+           快捷键                    命令名称                      功能用法
+ 【Ctrl+ h k】    describe-key      查看一个键值用法及源码
+ 【Ctrl+ h  o】   describe-symbol   查看一个变量或函数用法及源码
+2.下面的命令将打开整个EmacsManual
+C-h  i m  elisp  RET //查看elisp教程
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline3" class="outline-3">
+<h3 id="orgheadline3"><span class="section-number-3">1.2</span> Emacs Lisp编程入门书籍</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+这本书是中文版，英文版本可以直接通过C-h i之后查询Emacs Lisp Intro直
+接运行其中的代码
+</p>
+</div>
+<div id="outline-container-orgheadline2" class="outline-4">
+<h4 id="orgheadline2"><span class="section-number-4">1.2.1</span> 切换缓冲区</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+(current-buffer)
+</p>
+
+<p>
+(buffer-file-name)
+</p>
+
+<p>
+(switch-to-buffer (other-buffer))
+</p>
+
+<p>
+(buffer-size) 
+(point)  
+</p>
+
+
+<p>
+(point-min)
+(point-max)
+交互函数：
+(defun multiply-by-seven (number)   ;version1
+  "Multiply NUMBER by seven"
+  (* 7 number))
+</p>
+
+<p>
+(defun multiply-by-seven2 (number)  ;version2
+  "Multiply NUMBER by seven"
+  (interactive "p")
+  (message "the result is %d" (* 7 number)))
+</p>
+
+<p>
+(defun multiply-by-seven3 (buffer start end)  ;version3
+  "Multiply NUMBER by seven"
+  (interactive "BAppend to buffer: \nr"))
+ ; (message "the result is %d" (* 7 number)))
+</p>
+
+<p>
+3.6 let函数
+(let ((zebra 'stripes)
+      (tiger 'fierce))
+  (message "One kind of animal has %s and anthor has %s."
+           zebra tiger))
+</p>
+
+<p>
+3.7 if 函数
+</p>
+
+<p>
+(if (&gt; 4 5)
+    (message "5 is greater than 4!")
+  (message "4 is not greater than 5!"))
+</p>
+
+<p>
+(defun type-of-animal (charac)
+  "print message in echo area depending on charac"
+  (if (equal charac 'tiger)
+      (message "it is a tiger!")))
+(type-of-animal 'tige)
+</p>
+
+<p>
+(multiply-by-seven 7)
+5
+</p>
+
+
+<p>
+(if 4
+    'true
+  'false)
+</p>
+
+
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(+ 2 3)
+(<span style="color: #8ac6f2; font-weight: bold;">defun</span> <span style="color: #cae682;">f</span> (n) 
+  (<span style="color: #8ac6f2; font-weight: bold;">cond</span> ((= n 1) 1)
+        ((= n 2) 1)
+         (t (+ (f (- n 1)) (f (- n 2))))))
+(f 34)
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline4" class="outline-3">
+<h3 id="orgheadline4"><span class="section-number-3">1.3</span> emacs和正则表达式配合使用</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+<a href="https://segmentfault.com/q/1010000008383759">https://segmentfault.com/q/1010000008383759</a>
+</p>
+
+<p>
+M-x re-builer  手动生成正则表达式
+M-x regexp-builder 同上,手动生成正则表达式
+M-x regexp-opt  根据目标内容生成对应的正则表达式
+可以利用emacs的函数exgrep-opt自动生成一个高效的正则匹配表达式：
+(regexp-opt '("foobar" "foobaz" "foo"))按键"C-x C-e"在状态栏生成正则表达式
+(regexp-opt '("foobar" "foobaz" "foo"))按键"C-u C-x C-e"在当前光标处生成正则表达式
+(regexp-opt '("foobar" "foobaz" "foo"))"\\(?:foo\\(?:ba[rz]\\)?\\)"
+(regexp-opt '("foobar" "foobaz" "foo"))
+</p>
+
+<p>
+"\\(?:foo\\(?:ba[rz]\\)?\\)"
+</p>
+
+<p>
+-正则表达式应用实例：
+[a]正则搜索内容为"空格"或"&lt;TAB&gt;"：
+按键：C-M-s： \|&lt;tab&gt;
+按键说明：第1个按键为空格" "，第2个按键为"\|"是或者的意思，第3个按键为&lt;TAB&gt;，显示为"<sup>I</sup>"。
+Regexp I-search: \|<sup>I</sup>
+</p>
+
+<p>
+[b]正则搜索内容为"回车"：
+按键：C-M-s：C-q C-j，显示为<sup>J</sup>
+Regexp I-search: ^J
+</p>
+
+<p>
+[c]正则搜索内容为“Tab制表符“：
+按键：C-M-s：&lt;tab&gt;，显示为<sup>I</sup>
+Regexp I-search: ^I
+</p>
+
+<p>
+[d]查找IPv4格式的IP地址:
+按键：C-M-s：\\(\[0-9\]\\{1,3\\}\\.\\)\\{3\\}\[0-9\]\\{1,3\\}
+61\.139\.[0-9]\{1,3\}\.[0-9]\{1,3\}
+</p>
+
+<p>
+[e]正则替换IP地址：(将所有61.139.*.* 替换为1.2.3.4)
+按键：C-M-%：61\.139\.[0-9]\{1,3\}\.[0-9]\{1,3\}&lt;RET&gt;1.2.3.4
+Query replace regexp (default 61\.139\.[0-9]\{1,3\}\.[0-9]\{1,3\} -&gt; 1.2.3.4:
+</p>
+
+<p>
+[f]正则替换：将多个空格或者TAB替换为1个空格
+按键：C-M-%：[ C-q&lt;TAB&gt;]+&lt;RET&gt; &lt;RET&gt;
+Query replacing [ ^I]+ with  : (? for help)
+按键：C-M-%：
+Query replace regexp (default [ ^I]+ -&gt;  ): 
+</p>
+
+<p>
+[g]正则替换：将从eshell下执行的命令结果拷贝至记录文件中后，替换掉命令结果中的shell命令提示符（ <i>mnt/sda5d/TDDownload/shell $  替换为 shell# )
+按键：C-M-%：^</i>.* \\(<RET>shell#<RET>
+Query replace regexp (default ^/.* \\) -&gt; shell#): 
+</p>
+
+<p>
+[h]正则搜索所有"空格+行尾"（行尾以空格结束，在vim中是/ \(）：
+按键：C-M-s: +\)
+</p>
+
+<p>
+[i]正则替换：将多个空行替换为1个空行
+按键：M-x replace-regexp:<sup>C</sup>-q C-j $&lt;RET&gt;&lt;RET&gt;
+按键说明：<sup>表示以什么开始</sup>，C-q C-j联合按键是一个回车，\(表示行尾
+Replace regexp (default ^^j\) -&gt; ):
+</p>
+
+<p>
+[j]正则替换：使用()()进行分组交换（将单词与冒号的组合abc:进行交换: abc）
+按键：Ｍ-x replace-regexp:\([a-z]\{1,999\}\)\(\:\)&lt;RET&gt;\2 \1&lt;RET&gt;
+按键说明：\(.....\)表示第１个分组，后面可以跟多个分组\(....\)\(.....\)在替换时分别以\1\2\3来表示之前定义的各个分组。
+</p>
+
+<p>
+[k]正则替换：将css文件中abc{中间加个空格abc {
+按键：M-x replace-regexp:\([a-z]+\)\({\)&lt;RET&gt;\1 \2&lt;RET&gt;
+按键说明：在\(.....\)编组之间的字符直接用字符即可，不用加上\转义
+</p>
+
+<p>
+[l]正则替换：将所有单词的首写字母替换为首写字母大写
+按键：M-x replace-regexp:\(\w+\)&lt;RET&gt;\,(capitalize \1)&lt;RET&gt;
+按键说明：在替换部分\,表示后面跟的不是要用来替换的东西，而是一段lisp程序
+</p>
+
+<p>
+[m]正则替换：将所有匹配的文字后面加上一个回车
+按键：M-x replace-regexp:\([a-z]+ +\)\({\)&lt;RET&gt;\&amp;C-qC-j&lt;RET&gt;
+按键说明：在替换部分用\&amp;表示前面匹配的所有文字
+</p>
+
+<p>
+[n]正则替换：将所有匹配的1 1-1 1-1-1替换为#1 #1-1 #1-1-1
+按键：M-x replace-regexp:\(\([0-9]+\-\)*[0-9]+\)&lt;RET&gt;#\1
+原文为：
+1
+1-1
+1-1-1
+asfa saf  232-33, 11-22-33-44
+smesf ijds  101-22-33-23
+替换后：
+#1
+#1-1
+#1-1-1
+asfa saf  #232-33, #11-22-33-44
+smesf ijds  #101-22-33-23
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline5" class="outline-3">
+<h3 id="orgheadline5"><span class="section-number-3">1.4</span> Grep命令使用及正则表达式（默认搜索当前路径下的文件，而不查询目录）</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+   功能说明：查找文件里符合条件的字符串（默认搜索当前路径下的文件，而
+不查询目录，如果要查询目录需要添加-r 或者-d参数，否则结束）。
+   <a href="http://www.linuxso.com/command/grep.html">http://www.linuxso.com/command/grep.html</a>
+</p>
+
+<p>
+语　　法：grep [-abcEFGhHilLnqrsvVwxy][-A&lt;显示列数&gt;][-B&lt;显示列数&gt;][-C&lt;显示列数&gt;][-d&lt;进行动作&gt;][-e&lt;范本样式&gt;][-f&lt;范本文件&gt;][&#x2013;help][范本样式][文件或目录&#x2026;]
+</p>
+
+<p>
+补充说明：grep 指令用于查找内容包含指定的范本样式的文件，如果发现某文件的内容符合所指定的范本样式，预设grep指令会把含有范本样式的那一列显示出来。若不指定任何文件名称，或是所给予的文件名为“-”，则grep指令会从标准输入设备读取数据。
+</p>
+
+<p>
+参　　数：
+  -a或&#x2013;text   不要忽略二进制的数据。
+  -A&lt;显示列数&gt;或&#x2013;after-context=&lt;显示列数&gt;   除了显示符合范本样式的那一列之外，并显示该列之后的内容。
+  -b或&#x2013;byte-offset   在显示符合范本样式的那一列之前，标示出该列第一个字符的位编号。
+  -B&lt;显示列数&gt;或&#x2013;before-context=&lt;显示列数&gt;   除了显示符合范本样式的那一列之外，并显示该列之前的内容。
+  -c或&#x2013;count   计算符合范本样式的列数。
+  -C&lt;显示列数&gt;或&#x2013;context=&lt;显示列数&gt;或-&lt;显示列数&gt;   除了显示符合范本样式的那一列之外，并显示该列之前后的内容。
+  -d&lt;进行动作&gt;或&#x2013;directories=&lt;进行动作&gt;   当指定要查找的是目录而非文件时，必须使用这项参数，否则grep指令将回报信息并停止动作。
+  -e&lt;范本样式&gt;或&#x2013;regexp=&lt;范本样式&gt;   指定字符串做为查找文件内容的范本样式。
+  -E或&#x2013;extended-regexp   将范本样式为延伸的普通表示法来使用。
+  -f&lt;范本文件&gt;或&#x2013;file=&lt;范本文件&gt;   指定范本文件，其内容含有一个或多个范本样式，让grep查找符合范本条件的文件内容，格式为每列一个范本样式。
+  -F或&#x2013;fixed-regexp   将范本样式视为固定字符串的列表。
+  -G或&#x2013;basic-regexp   将范本样式视为普通的表示法来使用。
+  -h或&#x2013;no-filename   在显示符合范本样式的那一列之前，不标示该列所属的文件名称。
+  -H或&#x2013;with-filename   在显示符合范本样式的那一列之前，表示该列所属的文件名称。
+  -i或&#x2013;ignore-case   忽略字符大小写的差别。
+  -l或&#x2013;file-with-matches   列出文件内容符合指定的范本样式的文件名称。
+  -L或&#x2013;files-without-match   列出文件内容不符合指定的范本样式的文件名称。
+  -n或&#x2013;line-number   在显示符合范本样式的那一列之前，标示出该列的列数编号。
+  -q或&#x2013;quiet或&#x2013;silent   不显示任何信息。
+  -r或&#x2013;recursive   此参数的效果和指定“-d recurse”参数相同。
+  -s或&#x2013;no-messages   不显示错误信息。
+  -v或&#x2013;revert-match   反转查找。
+  -V或&#x2013;version   显示版本信息。
+  -w或&#x2013;word-regexp   只显示全字符合的列。
+  -x或&#x2013;line-regexp   只显示全列符合的列。
+  -y   此参数的效果和指定“-i”参数相同。
+  &#x2013;help   在线帮助。
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline12" class="outline-2">
+<h2 id="orgheadline12"><span class="section-number-2">2</span> sicp的课后习题实现</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-orgheadline8" class="outline-3">
+<h3 id="orgheadline8"><span class="section-number-3">2.1</span> SICP的python实现结果</h3>
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-orgheadline7" class="outline-4">
+<h4 id="orgheadline7"><span class="section-number-4">2.1.1</span> 第一章python版本书中程序</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+from operator import add,sub
+import sys
+print sys.version
+print sys.prefix
+print "hello world!"
+</p>
+
+<p>
+转到jupyter notebook中运行python的代码
+</p>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-orgheadline11" class="outline-3">
+<h3 id="orgheadline11"><span class="section-number-3">2.2</span> SICP的scheme实现结果</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-orgheadline9" class="outline-4">
+<h4 id="orgheadline9"><span class="section-number-4">2.2.1</span> 第三章习题</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+; Exercise 3.28: Define an or-gate as a primitive function box. Your or-gate constructor should be similar to and-gate.
+(load "/home/soulomoon/git/SICP/Chapter3/signal.scm")
+</p>
+
+<p>
+(define (inverter input output)
+  (define (invert-input)
+    (let ((new-value 
+           (logical-not (get-signal input))))
+         (set-signal! output new-value)))
+  (add-action! input invert-input)
+ 'ok)
+</p>
+
+<p>
+(define (logical-not s)
+  (cond ((= s 0) 1)
+        ((= s 1) 0)
+        (else (error "Invalid signal" s))))
+</p>
+
+<p>
+(define (or-gate a1 a2 output)
+  (define (or-action-procedure)
+    (let ((new-value
+           (logical-or (get-signal a1) 
+                        (get-signal a2))))
+         (set-signal! output new-value)))
+  (add-action! a1 or-action-procedure)
+  (add-action! a2 or-action-procedure)
+  'ok)
+</p>
+
+<p>
+(define (logical-or a b)
+  (if (or (= a 1) (= b 1))
+      1
+      0))
+</p>
+
+<p>
+(define a (make-wire))
+(define b (make-wire))
+(define c (make-wire))
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline10" class="outline-4">
+<h4 id="orgheadline10"><span class="section-number-4">2.2.2</span> 全加器的模拟</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+(define a (make-wire))
+(define b (make-wire))
+(define c (make-wire))
+</p>
+
+<p>
+(define d (make-wire))
+(define e (make-wire))
+(define s (make-wire))
+</p>
+
+<p>
+(define (half-adder a b s c)
+  (let ((d (make-wire)) (e (make-wire)))
+    (or-gate a b d)
+    (and-gate a b c)
+    (inverter c e)
+    (and-gate d e s)
+    'ok))
+</p>
+
+<p>
+(define (full-adder a b c-in sum c-out)
+  (let ((s (make-wire))
+        (c1 (make-wire))
+        (c2 (make-wire)))
+    (half-adder b c-in s c1)
+    (half-adder a s sum c2)
+    (or-gate c1 c2 c-out)
+    'ok))
+</p>
+
+
+<p>
+(define (inverter input output)
+    (define (invert-input)
+      (let ((new-value (logical-not (get-signal input))))
+        (after-delay inverter-delay
+                     (lambda ()
+                       (set-signal! output new-value)))))
+    (add-action! input invert-input)
+    'ok)
+</p>
+
+<p>
+(define (logical-not s)
+  (cond ((= s 0) 1)
+        ((= s 1) 0)
+        (else (error "Invalid signal" s))))
+</p>
+
+
+<p>
+(define (and-gate a1 a2 output)
+      (define (and-action-procedure)
+        (let ((new-value
+               (logical-and (get-signal a1) (get-signal a2))))
+          (after-delay and-gate-delay
+                       (lambda ()
+                         (set-signal! output new-value)))))
+      (add-action! a1 and-action-procedure)
+      (add-action! a2 and-action-procedure)
+      'ok)
+</p>
+
+
+<p>
+(define (make-wire)
+     (let ((signal-value 0) (action-procedures '()))
+       (define (set-my-signal! new-value)
+         (if (not (= signal-value new-value))
+             (begin (set! signal-value new-value)
+                    (call-each action-procedures))
+             'done))
+</p>
+
+<p>
+(define (accept-action-procedure! proc)
+  (set! action-procedures (cons proc action-procedures))
+  (proc))
+</p>
+
+<p>
+(define (dispatch m)
+  (cond ((eq? m 'get-signal) signal-value)
+        ((eq? m 'set-signal!) set-my-signal!)
+        ((eq? m 'add-action!) accept-action-procedure!)
+        (else (error "Unknown operation &#x2013; WIRE" m))))
+dispatch))
+</p>
+
+
+<p>
+(define (call-each procedures)
+  (if (null? procedures)
+      'done
+      (begin
+        ((car procedures))
+        (call-each (cdr procedures)))))
+</p>
+
+<p>
+(define (get-signal wire)
+     (wire 'get-signal))
+</p>
+
+<p>
+(define (set-signal! wire new-value)
+  ((wire 'set-signal!) new-value))
+</p>
+
+<p>
+(define (add-action! wire action-procedure)
+  ((wire 'add-action!) action-procedure))
+</p>
+
+
+<p>
+(define (propagate)
+  (if (empty-agenda? the-agenda)
+      'done
+      (let ((first-item (first-agenda-item the-agenda)))
+        (first-item)
+        (remove-first-agenda-item! the-agenda)
+        (propagate))))
+</p>
+
+<p>
+;;define cons and set-cdr set-car! 
+ (define cons
+    (lambda (x y)
+        (define set-x!
+            (lambda (v)
+                (set! x v)))
+        (define set-y!
+            (lambda (v)
+                (set! y v)))
+        (define dispatch
+            (lambda (m)
+                (cond ((eq? m 'car)
+                        x)
+                      ((eq? m 'cdr)
+                        y)
+                      ((eq? m 'set-car!)
+                        set-x!)
+                      ((eq? m 'set-cdr!)
+                        set-y!)
+                      (else
+                        (error "Undefined operation &#x2013; CONS" m)))))
+        dispatch))
+</p>
+
+<p>
+(define car
+    (lambda (z)
+        (z 'car)))
+</p>
+
+<p>
+(define cdr
+    (lambda (z)
+        (z 'cdr)))
+</p>
+
+<p>
+(define set-car!
+    (lambda (z new-value)
+        ((z 'set-car!) new-value)))
+</p>
+
+<p>
+(define set-cdr!
+    (lambda (z new-value)
+        ((z 'set-cdr!) new-value)))
+</p>
+
+
+<p>
+(define (probe name wire)
+    (add-action! wire
+                 (lambda ()
+                   (newline)
+                   (display name)
+                   (display " ")
+                   (display (current-time the-agenda))
+                   (display "  New-value = ")
+                   (display (get-signal wire)))))
+</p>
+
+<p>
+(define the-agenda (make-agenda))
+    (define inverter-delay 2)
+    (define and-gate-delay 3)
+    (define or-gate-delay 5)
+</p>
+
+<p>
+(define input-1 (make-wire))
+    (define input-2 (make-wire))
+    (define sum (make-wire))
+    (define carry (make-wire))
+</p>
+
+<p>
+     (probe 'sum sum)
+(probe 'carry carry)
+</p>
+
+<p>
+(half-adder input-1 input-2 sum carry)
+</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgheadline15" class="outline-2">
+<h2 id="orgheadline15"><span class="section-number-2">3</span> Latex排版学习</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-orgheadline13" class="outline-3">
+<h3 id="orgheadline13"><span class="section-number-3">3.1</span> Org中插入参考文献doi信息</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+matlab deep learn <a class='org-ref-reference' href="#kim17_matlab_deep_learn">kim17_matlab_deep_learn</a>
+</p>
+
+<p>
+the secret deep <a class='org-ref-reference' href="#ye18_power_deep_learn_chann_estim">ye18_power_deep_learn_chann_estim</a> 
+<a class='org-ref-reference' href="#ye18_power_deep_learn_chann_estim">ye18_power_deep_learn_chann_estim</a>
+</p>
+
+<p>
+<a href="https://doi.org/10.1109/lwc.2017.2757490">doi:10.1109/lwc.2017.2757490</a>
+</p>
+
+<p>
+<a class='org-ref-reference' href="#zhou10_block_rankin">zhou10_block_rankin</a>
+</p>
+
+
+<div class="org-src-container">
+
+<pre class="src src-C"><span style="color: #e5786d;">#include</span> <span style="color: #95e454;">&lt;stdio.h&gt;</span>
+<span style="color: #92a65e; font-weight: bold;">int</span> <span style="color: #cae682;">main</span>(<span style="color: #92a65e; font-weight: bold;">int</span> <span style="color: #cae682;">argc</span>, <span style="color: #92a65e; font-weight: bold;">char</span> *<span style="color: #cae682;">argv</span>[])
+{
+  printf(<span style="color: #95e454;">"hello world!\n"</span>);
+  <span style="color: #8ac6f2; font-weight: bold;">return</span> 0;
+
+}
+</pre>
+</div>
+
+<div class="org-src-container">
+
+<pre class="src src-C++"><span style="color: #e5786d;">#include</span> <span style="color: #95e454;">&lt;iostream&gt;</span>
+<span style="color: #92a65e; font-weight: bold;">int</span> <span style="color: #cae682;">main</span>()
+{
+<span style="color: #e5786d;">std</span>::cout &lt;&lt; <span style="color: #95e454;">"hello, c++ in emacs new!!"</span>
+          &lt;&lt; <span style="color: #e5786d;">std</span>::endl;
+}
+</pre>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline14" class="outline-3">
+<h3 id="orgheadline14"><span class="section-number-3">3.2</span> 测试文档</h3>
+<div class="outline-text-3" id="text-3-2">
+<div class="org-src-container">
+
+<pre class="src src-latex">test ref
+<span style="color: #deb887;">$</span><span style="color: #deb887;">\alpha</span><span style="color: #deb887;">$</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2018-02-25 周日 22:11</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
